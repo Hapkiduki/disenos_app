@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:disenos_app/src/pages/pinterest_page.dart';
 
-import 'package:disenos_app/src/pages/headers_page.dart';
+//import 'package:disenos_app/src/pages/headers_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home: HeadersPage(),
+      home: PinterestPage(),
     );
   }
 }
